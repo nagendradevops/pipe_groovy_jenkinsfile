@@ -1,3 +1,3 @@
-def sayHello() {
-    echo 'Hello from MySharedLib!'
+def sayHello(String message = 'Hello') {
+    echo message
 }
